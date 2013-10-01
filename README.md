@@ -1,4 +1,4 @@
-racket-expect
+ProcUnit
 =============
 
-Racket reimplementation of the Unix Expect tool
+An extension of RackUnit to be used for testing separate processes.

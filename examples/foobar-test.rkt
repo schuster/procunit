@@ -13,6 +13,6 @@
 (displayln "foo\n" proc-stdin)
 
 (match-port-line proc-stdout
-  #;[(timeout 10) (error "failed")]
+  [(timeout 10) (error "failed")]
   ["bar" (displayln "success")]
   [line (displayln line) (error "failed")])
